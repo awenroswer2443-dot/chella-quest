@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "player": "Ella",
+    "maker": "Chad",
+    "gameTitle": "The Chella Quest",
+    "subtitle": "A Birthday Adventure",
+    "mascotName": "Twinkle",
+    "domain": "chella.co.za"
+  },
+  "loading": {
+    "line1": "A little portal is unsealing...",
+    "line2": "Something sparkly made just for you.",
+    "envelopeFront": "To: Ella",
+    "envelopeBack": "From: Chad"
+  },
+  "title": {
+    "heading": "The Chella Quest",
+    "subheading": "A birthday adventure made for Ella",
+    "startButton": "Press Start, Birthday Girl",
+    "tagline": "Collect the magic. Unlock the surprise."
+  },
+  "hub": {
+    "heading": "Choose Your Next Magic",
+    "subheading": "Complete each stage to unlock a Memory Gem",
+    "levels": [
+      { "id": 1, "name": "Catch the Stars", "emoji": "star", "blurb": "Tap the floating treats as they drift up." },
+      { "id": 2, "name": "Wish Boxes", "emoji": "gift", "blurb": "Open every box. Sweet messages inside." },
+      { "id": 3, "name": "Memory Match", "emoji": "heart", "blurb": "Flip the cards. Find the pairs." },
+      { "id": 4, "name": "Constellation Wish", "emoji": "sparkle", "blurb": "Connect the stars to draw a wish." },
+      { "id": 5, "name": "Bake Her a Cake", "emoji": "cake", "blurb": "Design it. Tap to blow out the candles." }
+    ],
+    "finaleLocked": "Finish all five stages to open the last letter",
+    "finaleUnlocked": "You did it! Open the final letter"
+  },
+  "levels": {
+    "catch": {
+      "title": "Level 1 — Catch the Stars",
+      "instruction": "Tap the floating sparkles as they drift up. Catch 15 before the timer ends!",
+      "timer": 30,
+      "goal": 15,
+      "successMessage": "You're shimmering, birthday girl.",
+      "failMessage": "So close! Try again — the magic is patient.",
+      "gem": {
+        "title": "Memory Gem #1 — Sparkle",
+        "text": "On every ordinary day, you make the air around you feel a little bit enchanted."
+      }
+    },
+    "boxes": {
+      "title": "Level 2 — Wish Boxes",
+      "instruction": "Tap each gift box to open it. Collect all 6 wishes.",
+      "wishes": [
+        { "emoji": "heart", "title": "A Wish for Laughter", "text": "May today be full of that laugh of yours that makes everyone nearby smile." },
+        { "emoji": "star", "title": "A Wish for Adventure", "text": "May this year be a soft-launch era: new cities, new favourite cafes, new inside jokes." },
+        { "emoji": "cupcake", "title": "A Wish for Treats", "text": "May every coffee be perfectly made and every dessert bigger than expected." },
+        { "emoji": "crown", "title": "A Wish for Being Spoiled", "text": "You deserve to be the main character today. And also tomorrow. And also every Tuesday." },
+        { "emoji": "ribbon", "title": "A Wish for Softness", "text": "A year of cosy mornings, warm evenings, and people who love you loudly." },
+        { "emoji": "sparkle", "title": "A Wish for More of This", "text": "Whatever makes you feel the most like YOU — may this year be full of exactly that." }
+      ],
+      "successMessage": "Every wish opened. Every wish true.",
+      "gem": {
+        "title": "Memory Gem #2 — Wishes",
+        "text": "Six little wishes, one for every letter of your name: E-L-L-A-X-O."
+      }
+    },
+    "memory": {
+      "title": "Level 3 — Memory Match",
+      "instruction": "Flip the cards to find the matching pairs.",
+      "successMessage": "You remembered every single one.",
+      "gem": {
+        "title": "Memory Gem #3 — Kindred",
+        "text": "Some things just fit. The right shoes. A favourite song. Us, across any distance."
+      }
+    },
+    "constellation": {
+      "title": "Level 4 — Constellation Wish",
+      "instruction": "Tap the stars in order to draw the hidden wish in the sky.",
+      "successMessage": "The sky remembers your wish.",
+      "gem": {
+        "title": "Memory Gem #4 — Sky",
+        "text": "Different time zones, same sky. I hope you look up tonight and feel it." }
+    },
+    "cake": {
+      "title": "Level 5 — Bake Her a Cake",
+      "instruction": "Pick a flavour, add icing, scatter toppings. Then tap the candles to blow them out.",
+      "successMessage": "You made a wish. I hope it was a greedy one.",
+      "gem": {
+        "title": "Memory Gem #5 — Wish",
+        "text": "Whatever you wished for — I'm already rooting for it louder than anyone else." }
+    }
+  },
+  "finale": {
+    "heading": "Happy Birthday, Ella",
+    "body": [
+      "You made it to the end of the quest — but honestly, you've been the main character the whole way through.",
+      "Distance is just geography. The way I feel about you isn't. Today the whole internet gets a tiny pink window into how special you are to me — and it's still not big enough.",
+      "I hope this year is the softest, silliest, most spoiled one yet."
+    ],
+    "signature": "— Chad",
+    "replay": "Play again",
+    "secret": "You found the secret button."
+  },
+  "achievements": {
+    "firstCatch": "First Sparkle Caught",
+    "comboCatch": "Sparkle Streak x5",
+    "allBoxes": "Every Wish Opened",
+    "firstMatch": "First Pair Matched",
+    "flawlessMemory": "Perfect Memory",
+    "constellation": "Wish Upon A Star",
+    "cakeDesigned": "Master Baker",
+    "questComplete": "Quest Complete",
+    "secretFound": "Secret Spot Found"
+  }
+}
